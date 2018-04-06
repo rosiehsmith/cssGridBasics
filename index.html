@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Grids</title>
+		<style>
+			.grid {
+				display: grid;
+				grid-template-columns: 70% 30%;
+				grid-gap: 1em;		
+			}
+			.grid > div{
+				background: #eee;
+				padding: 1em;
+			}
+
+			.grid > div:nth-child(odd){
+				background: #ddd;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid">
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab corrupti, non necessitatibus sequi numquam possimus laudantium repudiandae impedit dicta quibusdam blanditiis alias voluptatibus veritatis delectus aperiam sapiente. Nobis quo hic deleniti, nulla in vel placeat illo at iusto eos, nam dolorum atque sequi minus quis quidem inventore ipsam voluptate nostrum beatae temporibus labore ad rerum! Porro maxime facilis voluptatum nobis minus repellat nesciunt harum odit ut sapiente! Dolor quisquam, voluptatibus hic dolore fuga quibusdam, nesciunt debitis consectetur et molestias rem.	
+			</div>
+			<div>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quaerat vero, laboriosam, debitis accusantium necessitatibus eius natus nesciunt saepe blanditiis maiores doloribus. Minima suscipit facere quam temporibus similique earum! Adipisci.	
+			</div>
+			<div>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab corrupti, non necessitatibus sequi numquam possimus laudantium repudiandae impedit dicta quibusdam blanditiis alias voluptatibus veritatis delectus aperiam sapiente. Nobis quo hic deleniti, nulla in vel placeat illo at iusto eos, nam dolorum atque sequi minus quis quidem inventore ipsam voluptate nostrum beatae temporibus labore ad rerum! Porro maxime facilis voluptatum nobis minus repellat nesciunt harum odit ut sapiente! Dolor quisquam, voluptatibus hic dolore fuga quibusdam, nesciunt debitis consectetur et molestias rem.	
+				</div>
+				<div>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quaerat vero, laboriosam, debitis accusantium necessitatibus eius natus nesciunt saepe blanditiis maiores doloribus. Minima suscipit facere quam temporibus similique earum! Adipisci.	
+				</div>
+		</div>
+	</body>
+</html>
